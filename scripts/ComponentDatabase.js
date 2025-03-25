@@ -133,7 +133,11 @@ export class ComponentDatabase {
                     "id": item.id,
                     "source": creatureName
                 }
-            }
+            },
+            "mastercrafted": {
+              "attributePath": "",
+                  "tags": ${item.name}
+    },
         };
     }
 
