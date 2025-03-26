@@ -136,8 +136,8 @@ export class ComponentDatabase {
             },
             "mastercrafted": {
               "attributePath": "",
-                  "tags": ${item.name}
-    },
+              "tags": `${item.name}`
+            }
         };
     }
 
